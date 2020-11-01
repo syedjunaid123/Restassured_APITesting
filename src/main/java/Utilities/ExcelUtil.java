@@ -14,6 +14,7 @@ public class ExcelUtil {
 			String projectPath = System.getProperty("user.dir");
 			String excelPath = projectPath+"/src/test/resources/Employee_Id_data.xlsx";
 
+			@SuppressWarnings("resource")
 			XSSFWorkbook workbook = new XSSFWorkbook(excelPath);
 			XSSFSheet sheet = workbook.getSheet("employees_id's");
 			
@@ -28,5 +29,4 @@ public class ExcelUtil {
 		}
 		return employee_id;
 	}
-
 }

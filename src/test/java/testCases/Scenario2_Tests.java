@@ -1,4 +1,4 @@
-package apiautomation;
+package testCases;
 
 
 import org.testng.annotations.Test;
