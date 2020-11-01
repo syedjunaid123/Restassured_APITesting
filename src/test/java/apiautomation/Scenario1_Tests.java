@@ -5,10 +5,10 @@ import java.util.Properties;
 
 import Configuration.GetConfigProperties;
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
+//import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-public class Tests extends GetConfigProperties {
+public class Scenario1_Tests extends GetConfigProperties {
 	
 	Properties props = this.gettingproperties();
 

@@ -17,9 +17,9 @@ public class GetConfigProperties {
 			props.load(input);
 			
 		} catch (Exception e) {
-
 			e.printStackTrace();
 		}
+		
 		return props;
 	}
 }
